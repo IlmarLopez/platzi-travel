@@ -1,0 +1,25 @@
+{
+  "name": "platzi-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwind -i ./src/input.css -o ./dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlmarLopez/platzi-travel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlmarLopez/platzi-travel/issues"
+  },
+  "homepage": "https://github.com/IlmarLopez/platzi-travel#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
